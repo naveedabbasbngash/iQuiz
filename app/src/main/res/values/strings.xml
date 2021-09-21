@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">iQuiz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Online Quiz / Assigment App</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="subject_prompt">Choose a Subject</string>
+    <string name="department_prompt">Choose a Department</string>
+    <string name="semester_prompt">Choose a Semester</string>
+    <string name="section_prompt">Choose a Section</string>
+
+    <string-array name="subject_arrays">
+        <item>Introduction to Computer</item>
+        <item>Introduction to Operating System</item>
+        <item>Computer Network and Data Communication</item>
+        <item>Artifitial Intelligence</item>
+        <item>Telecommunication</item>
+        <item>WEB Programming</item>
+    </string-array>
+
+    <string-array name="department_arrays">
+        <item>CS</item>
+        <item>IT</item>
+    </string-array>
+
+    <string-array name="semester_arrays">
+        <item>SEMESTER1</item>
+        <item>SEMESTER2</item>
+        <item>SEMESTER3</item>
+        <item>SEMESTER4</item>
+        <item>SEMESTER5</item>
+        <item>SEMESTER6</item>
+        <item>SEMESTER7</item>
+        <item>SEMESTER8</item>
+    </string-array>
+
+    <string-array name="section_arrays">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+
+    <string-array name="ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="userlogin">
+        <item>Admin</item>
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+</resources>

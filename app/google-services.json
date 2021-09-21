@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "783740561048",
+    "project_id": "iquiz-b596f",
+    "storage_bucket": "iquiz-b596f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783740561048:android:96ae8fd25d029277c9d2ed",
+        "android_client_info": {
+          "package_name": "com.example.iquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783740561048-p5h0vbh5rtsarmtocvkso9catfl9744t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iquiz",
+            "certificate_hash": "620f41febbf0ec98e5ab975464435f9728e18a43"
+          }
+        },
+        {
+          "client_id": "783740561048-v2qbe9cdll37rsmgmm77s8cel6ainp30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6d96_llzyGe9ibrKNF9sMB7EM-LXUJrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783740561048-v2qbe9cdll37rsmgmm77s8cel6ainp30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

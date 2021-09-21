@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a2cffe"
+    tools:context=".StudentPanel">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Student Panel"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            ></TextView>
+        <Button
+            android:id="@+id/quiz"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Quiz Panel"
+            android:background="@drawable/btn_background_white"
+            ></Button>
+        <Button
+            android:id="@+id/uploadassign"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Upload Assigment"
+            android:background="@drawable/btn_background_white"
+            ></Button>
+        <Button
+            android:id="@+id/downloadassign"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Download Assigment"
+            android:background="@drawable/btn_background_white"
+            ></Button>
+        <Button
+            android:id="@+id/stdresult"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Student Result"
+            android:background="@drawable/btn_background_white"
+            ></Button>
+        <Button
+            android:id="@+id/changepass"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            android:text="Change Password"
+            android:background="@drawable/btn_background_white"
+            ></Button>
+        <Button
+            android:id="@+id/stdback"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="16dp"
+            android:text="Back"
+            android:background="@drawable/btn_background_white"
+            ></Button>
+    </LinearLayout>
+
+</RelativeLayout>

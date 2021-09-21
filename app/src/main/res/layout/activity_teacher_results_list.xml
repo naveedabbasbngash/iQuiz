@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherResultsList"
+    android:background="#8EA4B1"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="STD ID"
+            android:typeface="serif"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Name"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Section"
+            android:textStyle="bold"
+
+            ></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Marks"
+            android:textStyle="bold"
+
+            ></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Result"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+            ></TextView>
+    </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/headers"
+            android:id="@+id/resultrview"
+            android:layout_above="@id/download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:text="Download"
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="download"></Button>
+
+
+</RelativeLayout>

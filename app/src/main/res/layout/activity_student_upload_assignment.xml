@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a2cffe"
+    tools:context=".StudentUploadAssignment"
+    >
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="520dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Student Upload Panel"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            ></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Select Department"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:typeface="serif"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                ></TextView>
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Select Department"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:id="@+id/dept_spinner"
+                android:textSize="15dp"
+                android:entries="@array/department_arrays"
+                android:prompt="@string/department_prompt"
+                android:drawablePadding="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Select Subject"
+                android:gravity="center"
+                android:typeface="serif"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                ></TextView>
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Select Subject"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:id="@+id/sub_spinner"
+                android:textSize="15dp"
+                android:drawablePadding="5dp"
+                android:entries="@array/subject_arrays"
+                android:prompt="@string/subject_prompt"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Select Semester"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:typeface="serif"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                ></TextView>
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Select Semester"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:id="@+id/sem_spinner"
+                android:textSize="15dp"
+                android:entries="@array/semester_arrays"
+                android:prompt="@string/semester_prompt"
+                android:drawablePadding="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Select Section"
+                android:gravity="center"
+                android:typeface="serif"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                ></TextView>
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Select Section"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:id="@+id/sec_spinner"
+                android:textSize="15dp"
+                android:entries="@array/section_arrays"
+                android:prompt="@string/section_prompt"
+                android:drawablePadding="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Assignment Name"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:typeface="serif"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                ></TextView>
+            <EditText
+                android:id="@+id/nameassign"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ></EditText>
+        </LinearLayout>
+        <Button
+            android:id="@+id/chooseassign"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Choose Assigments"
+            android:background="@drawable/btn_background_white" />
+
+        <Button
+            android:id="@+id/uploadassign"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Upload Assigments"
+            android:background="@drawable/btn_background_white" />
+        <TextView
+            android:id="@+id/txtstatus"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            ></TextView>
+        <Button
+            android:id="@+id/stdback"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:text="Back"
+            android:background="@drawable/btn_background_white"
+            ></Button>
+
+    </LinearLayout>
+</RelativeLayout>
